@@ -1,0 +1,565 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="kedah " type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kedah .png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PAST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PAST.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trigger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\trigger.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOG OUT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\LOG OUT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DRIVER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\DRIVER.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="driver history1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\driver history.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HOME NO TITLE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\HOME NO TITLE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trovapay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\trovapay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg no logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\bg no logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_tick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\Latest_OhMyCode_User\Latest_OhMyCode_User\Images\icon_tick.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg booking no logo 21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\bg booking no logo 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4202848" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\4202848.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="booking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\booking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg home no logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\bg home no logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="driver bg history" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\driver bg history.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BG1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\BG1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DRIVER CHOICE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\DRIVER CHOICE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\background4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PROFILE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PROFILE1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VERNON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\VERNON.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BG CARS 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\BG CARS 4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="org_dua1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Videos\Captures\org_dua.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="driver book checking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\driver book checking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="profile no title" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\profile no title.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="org_empat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\org_empat.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo booking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\logo booking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_darkblue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\Latest_OhMyCode_User\Latest_OhMyCode_User\Images\bg_darkblue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo top up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\logo top up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="car booking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\car booking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="top up no title1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\top up no title.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="penang new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\penang new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg pink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\bg pink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_payment2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\Latest_OhMyCode_User\Latest_OhMyCode_User\Images\icon_payment2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="male_driver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\Latest_OhMyCode_User\Latest_OhMyCode_User\Images\male_driver.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cash Payment-bro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Cash Payment-bro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOG OUT2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\LOG OUT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BG CAR 31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\BG CAR 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BOOK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\BOOK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Front car-pana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Front car-pana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="driver bg profile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\driver bg profile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="driverman" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\driverman.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kelanta new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kelanta new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="org_satu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\org_satu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="REPORT1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\REPORT1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="setting no title" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\setting no title.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo profile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\logo profile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_trovapay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\Latest_OhMyCode_User\Latest_OhMyCode_User\Images\icon_trovapay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\Latest_OhMyCode_User\Latest_OhMyCode_User\Images\icon_edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg pink1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\bg pink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="driver bg home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\driver bg home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="perlis new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\perlis new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HISTRY1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\HISTRY1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg home no logo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\bg home no logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_payment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\Latest_OhMyCode_User\Latest_OhMyCode_User\Images\icon_payment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Top up credit-rafiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Top up credit-rafiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="emoji" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\Latest_OhMyCode_User\Latest_OhMyCode_User\Images\emoji.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="org lima" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\org lima.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="userrr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\userrr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STATUS 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\STATUS 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="qr_Ewallet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\Latest_OhMyCode_User\Latest_OhMyCode_User\Images\qr_Ewallet.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Successful purchase-pana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Successful purchase-pana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CHOOSING CAR2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\CHOOSING CAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CHAEYEONN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\CHAEYEONN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Road sign-amico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Road sign-amico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DRIVER11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\DRIVER1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CHOOSING CAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\CHOOSING CAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo home1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\logo home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg history latest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\bg history latest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Location" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\Latest_OhMyCode_User\Latest_OhMyCode_User\Images\Location.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\Latest_OhMyCode_User\Latest_OhMyCode_User\Images\button_bg.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2077164" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\2077164.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_location" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\Latest_OhMyCode_User\Latest_OhMyCode_User\Images\icon_location.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg home no logo3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\bg home no logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kedah new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kedah new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BG CAR 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\BG CAR 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="top up no title" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\top up no title.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_cash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\Latest_OhMyCode_User\Latest_OhMyCode_User\Images\icon_cash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="selangor new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\selangor new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="johor new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\johor new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_google" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\Latest_OhMyCode_User\Latest_OhMyCode_User\Images\icon_google.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo setting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\logo setting.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="history_bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\Latest_OhMyCode_User\Latest_OhMyCode_User\Images\history_bg.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="location2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\Latest_OhMyCode_User\Latest_OhMyCode_User\Images\location2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="orange gradient" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\orange gradient.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="qr code" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\qr code.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_smiley" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\Latest_OhMyCode_User\Latest_OhMyCode_User\Images\icon_smiley.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="suuuuzy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\suuuuzy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="perak new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\perak new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="moving icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\moving icon.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="female_driver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\Latest_OhMyCode_User\Latest_OhMyCode_User\Images\female_driver.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_emoji_mad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\Latest_OhMyCode_User\Latest_OhMyCode_User\Images\icon_emoji_mad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="book now" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\book now.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WONWOOO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\WONWOOO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kedahh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kedahh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="467272" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\Latest_OhMyCode_User\Latest_OhMyCode_User\Images\467272.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Smart mobility-amico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Smart mobility-amico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo history" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\logo history.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="driver gif" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\driver gif.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TnG_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\Latest_OhMyCode_User\Latest_OhMyCode_User\Images\TnG_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_emoji_mutawasit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\Latest_OhMyCode_User\Latest_OhMyCode_User\Images\icon_emoji_mutawasit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DOYEON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\DOYEON.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_currentLocation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\Latest_OhMyCode_User\Latest_OhMyCode_User\Images\icon_currentLocation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PURPLE GRADINET" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PURPLE GRADINET.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bo young" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\bo young.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1053188" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\Latest_OhMyCode_User\Latest_OhMyCode_User\Images\1053188.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CHOOSING CAR1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\CHOOSING CAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo places" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\logo places.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="org_dua" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\org_dua.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\Latest_OhMyCode_User\Latest_OhMyCode_User\Images\bg_red.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HOME NO TITLE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\HOME NO TITLE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_location" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\Latest_OhMyCode_User\Latest_OhMyCode_User\Images\bg_location.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="userr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\userr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_fpx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\Latest_OhMyCode_User\Latest_OhMyCode_User\Images\icon_fpx.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg booking no logo 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\bg booking no logo 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FEEDBACK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\FEEDBACK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\user2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="driver3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\driver3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\Latest_OhMyCode_User\Latest_OhMyCode_User\Images\icon_arrow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg home no logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\bg home no logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DRIVER CHOICE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\DRIVER CHOICE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="booooking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\booooking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FELIX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\FELIX.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BG CARS 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\BG CARS 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="previous" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\previous.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PLACES NO TITLE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PLACES NO TITLE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="complete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\complete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_arrived COD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\Latest_OhMyCode_User\Latest_OhMyCode_User\Images\icon_arrived COD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DRIVER1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\DRIVER1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="driver31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\driver3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PLACES" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\PLACES.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JOSHUA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\JOSHUA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="driver_female" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\Latest_OhMyCode_User\Latest_OhMyCode_User\Images\driver_female.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\logo home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\Latest_OhMyCode_User\Latest_OhMyCode_User\Images\logo.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="driver bg book cheking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\driver bg book cheking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JEONGIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\JEONGIN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg history" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\bg history.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOG OUT1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\LOG OUT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pahang new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\pahang new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kl new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\kl new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2268298" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\Latest_OhMyCode_User\Latest_OhMyCode_User\Images\2268298.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="location_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\Latest_OhMyCode_User\Latest_OhMyCode_User\Images\location_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="driver history" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\driver history.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_onlinebanking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\..\Downloads\Latest_OhMyCode_User\Latest_OhMyCode_User\Images\icon_onlinebanking.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="org_tiga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\org_tiga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="driverrr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\driverrr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg driver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\bg driver.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="org_dua2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\org_dua.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

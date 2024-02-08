@@ -1,0 +1,13 @@
+ANNUR KAMALIA,DRIVER     ,5 stars,the driver is so friendly
+ALI KAMAL,CAR               ,4 stars,the car is in good condition
+RANIA ALSADAD,APPLICATION,5 stars,the application runs smoothly
+LEE TAN JI,APPLICATION,4 stars,I like the features of choosing the driver's gender
+MUHAMMAD AZMAN,DRIVER     ,3 stars,the driver provides some snacks
+NURUL IZZAH,CAR               ,5 stars,the car is easy to use
+RANIA ALSADAD,CAR               ,4 Stars,good services, will repeat the service again
+SITI KAMARIAH,CAR               ,3 Stars,good services
+LEE TAN JI,APPLICATION,3 Stars,wonderful application
+SITI KAMARIAH,DRIVER     ,4 Stars,good driver
+SITI KAMARIAH,CAR               ,3 Stars,broken
+ZAKARIA,CAR               ,3 Stars,the car is not comfortable
+AMANDA,CAR               ,3 Stars,not comfortable

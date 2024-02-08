@@ -1,0 +1,931 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+OMC2
+</name>
+</assembly>
+<members>
+<member name="T:OMC2.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources._1053188">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources._2077164">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources._2268298">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources._4202848">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources._467272">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.background4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.bg_booking_no_logo_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.bg_booking_no_logo_21">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.BG_CAR_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.BG_CAR_31">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.BG_CARS_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.BG_CARS_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.bg_darkblue">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.bg_driver">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.bg_history">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.bg_history_latest">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.bg_home_no_logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.bg_home_no_logo1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.bg_home_no_logo2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.bg_home_no_logo3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.bg_location">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.bg_no_logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.bg_pink">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.bg_pink1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.bg_red">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.BG1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.bo_young">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.BOOK">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.book_now">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.booking">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.booooking">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.button_bg">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.car_booking">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.Cash_Payment_bro">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.CHAEYEONN">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.CHOOSING_CAR">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.CHOOSING_CAR1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.CHOOSING_CAR2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.complete">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.DOYEON">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.DRIVER">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.driver_bg_book_cheking">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.driver_bg_history">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.driver_bg_home">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.driver_bg_profile">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.driver_book_checking">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.DRIVER_CHOICE">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.DRIVER_CHOICE1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.driver_female">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.driver_gif">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.driver_history">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.driver_history1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.DRIVER1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.DRIVER11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.driver3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.driver31">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.driverman">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.driverrr">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.emoji">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.FEEDBACK">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.FELIX">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.female_driver">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.Front_car_pana">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.history_bg">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.HISTRY1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.HOME_NO_TITLE">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.HOME_NO_TITLE1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.icon_arrived_COD">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.icon_arrow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.icon_cash">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.icon_currentLocation">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.icon_edit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.icon_emoji_mad">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.icon_emoji_mutawasit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.icon_fpx">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.icon_google">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.icon_location">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.icon_onlinebanking">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.icon_payment">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.icon_payment2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.icon_smiley">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.icon_tick">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.icon_trovapay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.JEONGIN">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.johor_new">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.JOSHUA">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.kedah_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.kedah_new">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.kedahh">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.kelanta_new">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.kl_new">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.Location">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.location_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.location2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.LOG_OUT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.LOG_OUT1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.LOG_OUT2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.logo_booking">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.logo_history">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.logo_home">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.logo_home1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.logo_places">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.logo_profile">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.logo_setting">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.logo_top_up">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.male_driver">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.moving_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.orange_gradient">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.org_dua">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.org_dua1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.org_dua2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.org_empat">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.org_lima">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.org_satu">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.org_tiga">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.pahang_new">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.PAST">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.penang_new">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.perak_new">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.perlis_new">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.PLACES">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.PLACES_NO_TITLE">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.previous">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.profile_no_title">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.PROFILE1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.PURPLE_GRADINET">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.qr_code">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.qr_Ewallet">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.REPORT1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.Road_sign_amico">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.selangor_new">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.setting_no_title">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.Smart_mobility_amico">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.STATUS_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.Successful_purchase_pana">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.suuuuzy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.TnG_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.Top_up_credit_rafiki">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.top_up_no_title">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.top_up_no_title1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.trigger">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.trovapay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.user2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.userr">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.userrr">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.VERNON">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:OMC2.My.Resources.Resources.WONWOOO">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:OMC2.TROVAdatabaseDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:OMC2.TROVAdatabaseDataSet.carRegistrationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:OMC2.TROVAdatabaseDataSet.DriverDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:OMC2.TROVAdatabaseDataSet.profileDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:OMC2.TROVAdatabaseDataSet.rentalCarDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:OMC2.TROVAdatabaseDataSet.TrovaPayDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:OMC2.TROVAdatabaseDataSet.UserLocationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:OMC2.TROVAdatabaseDataSet.carRegistrationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:OMC2.TROVAdatabaseDataSet.DriverRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:OMC2.TROVAdatabaseDataSet.profileRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:OMC2.TROVAdatabaseDataSet.rentalCarRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:OMC2.TROVAdatabaseDataSet.TrovaPayRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:OMC2.TROVAdatabaseDataSet.UserLocationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:OMC2.TROVAdatabaseDataSet.carRegistrationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:OMC2.TROVAdatabaseDataSet.DriverRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:OMC2.TROVAdatabaseDataSet.profileRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:OMC2.TROVAdatabaseDataSet.rentalCarRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:OMC2.TROVAdatabaseDataSet.TrovaPayRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:OMC2.TROVAdatabaseDataSet.UserLocationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:OMC2.TROVAdatabaseDataSetTableAdapters.carRegistrationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:OMC2.TROVAdatabaseDataSetTableAdapters.DriverTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:OMC2.TROVAdatabaseDataSetTableAdapters.profileTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:OMC2.TROVAdatabaseDataSetTableAdapters.rentalCarTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:OMC2.TROVAdatabaseDataSetTableAdapters.TrovaPayTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:OMC2.TROVAdatabaseDataSetTableAdapters.UserLocationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:OMC2.TROVAdatabaseDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:OMC2.TROVAdatabaseDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(OMC2.TROVAdatabaseDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:OMC2.TROVAdatabaseDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(OMC2.TROVAdatabaseDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:OMC2.TROVAdatabaseDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(OMC2.TROVAdatabaseDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:OMC2.TROVAdatabaseDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:OMC2.TROVAdatabaseDataSetTableAdapters.TableAdapterManager.UpdateAll(OMC2.TROVAdatabaseDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:OMC2.TROVAdatabaseDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:OMC2.TROVAdatabaseDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

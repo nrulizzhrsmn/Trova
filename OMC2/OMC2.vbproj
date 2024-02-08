@@ -1,0 +1,679 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{80EFEB21-DDB6-4AF3-B2EF-D15EE8BA86B6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Sub Main</StartupObject>
+    <RootNamespace>OMC2</RootNamespace>
+    <AssemblyName>OMC2</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>OMC2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>OMC2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="adminReport.Designer.vb">
+      <DependentUpon>adminReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="adminReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin_Car.Designer.vb">
+      <DependentUpon>admin_Car.vb</DependentUpon>
+    </Compile>
+    <Compile Include="admin_Car.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin_CarRegitration.Designer.vb">
+      <DependentUpon>admin_CarRegitration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="admin_CarRegitration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin_driverRegistration.Designer.vb">
+      <DependentUpon>admin_driverRegistration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="admin_driverRegistration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin_mainPage.designer.vb">
+      <DependentUpon>admin_mainPage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="admin_mainPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin_TrovaPay.Designer.vb">
+      <DependentUpon>admin_TrovaPay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="admin_TrovaPay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin_user.Designer.vb">
+      <DependentUpon>admin_user.vb</DependentUpon>
+    </Compile>
+    <Compile Include="admin_user.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin_UserLocation.Designer.vb">
+      <DependentUpon>admin_UserLocation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="admin_UserLocation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="booking.designer.vb">
+      <DependentUpon>booking.vb</DependentUpon>
+    </Compile>
+    <Compile Include="booking.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="carRentConfirmation.designer.vb">
+      <DependentUpon>carRentConfirmation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="carRentConfirmation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CarSelected.vb" />
+    <Compile Include="choosePlaces.designer.vb">
+      <DependentUpon>choosePlaces.vb</DependentUpon>
+    </Compile>
+    <Compile Include="choosePlaces.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="COD_Cash.designer.vb">
+      <DependentUpon>COD_Cash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="COD_Cash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreditDebit.designer.vb">
+      <DependentUpon>CreditDebit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CreditDebit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CurrentLocation.designer.vb">
+      <DependentUpon>CurrentLocation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CurrentLocation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DriverDetails.vb" />
+    <Compile Include="driverDone.Designer.vb">
+      <DependentUpon>driverDone.vb</DependentUpon>
+    </Compile>
+    <Compile Include="driverDone.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="driverProfile.Designer.vb">
+      <DependentUpon>driverProfile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="driverProfile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DriverRegistration.Designer.vb">
+      <DependentUpon>DriverRegistration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DriverRegistration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="driverStatus.vb" />
+    <Compile Include="Driver_Log_In.Designer.vb">
+      <DependentUpon>Driver_Log_In.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Driver_Log_In.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forgotPassword.Designer.vb">
+      <DependentUpon>forgotPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forgotPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forgotPassword2.Designer.vb">
+      <DependentUpon>forgotPassword2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forgotPassword2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegister.designer.vb">
+      <DependentUpon>FormRegister.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormRegister.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CHOOSE DRIVER.designer.vb">
+      <DependentUpon>CHOOSE DRIVER.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CHOOSE DRIVER.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="check_booking.designer.vb">
+      <DependentUpon>check_booking.vb</DependentUpon>
+    </Compile>
+    <Compile Include="check_booking.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="History.Designer.vb">
+      <DependentUpon>History.vb</DependentUpon>
+    </Compile>
+    <Compile Include="History.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main_Page_Driver.Designer.vb">
+      <DependentUpon>main_Page_Driver.vb</DependentUpon>
+    </Compile>
+    <Compile Include="main_Page_Driver.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaleDriver.designer.vb">
+      <DependentUpon>MaleDriver.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MaleDriver.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FourSeated.designer.vb">
+      <DependentUpon>FourSeated.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FourSeated.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JOHOR BAHRU.designer.vb">
+      <DependentUpon>JOHOR BAHRU.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JOHOR BAHRU.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KEDAH.designer.vb">
+      <DependentUpon>KEDAH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="KEDAH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KELANTAN.designer.vb">
+      <DependentUpon>KELANTAN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="KELANTAN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KL.designer.vb">
+      <DependentUpon>KL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="KL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="location_travel.designer.vb">
+      <DependentUpon>location_travel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="location_travel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOG_IN.designer.vb">
+      <DependentUpon>LOG_IN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LOG_IN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main_page_user.designer.vb">
+      <DependentUpon>main_page_user.vb</DependentUpon>
+    </Compile>
+    <Compile Include="main_page_user.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include=".designer.vb">
+      <DependentUpon>mainPage.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MELAKA.designer.vb">
+      <DependentUpon>MELAKA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MELAKA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="N9.designer.vb">
+      <DependentUpon>N9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="N9.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Online Banking.designer.vb">
+      <DependentUpon>Online Banking.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Online Banking.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAHANG.designer.vb">
+      <DependentUpon>PAHANG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PAHANG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="payment.designer.vb">
+      <DependentUpon>payment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="payment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PENANG.designer.vb">
+      <DependentUpon>PENANG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PENANG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PERAK.designer.vb">
+      <DependentUpon>PERAK.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PERAK.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PERLIS.designer.vb">
+      <DependentUpon>PERLIS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PERLIS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Preference.designer.vb">
+      <DependentUpon>Preference.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Preference.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="program1.vb" />
+    <Compile Include="registrationDriver.designer.vb">
+      <DependentUpon>registrationDriver.vb</DependentUpon>
+    </Compile>
+    <Compile Include="registrationDriver.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rentCarDetails.designer.vb">
+      <DependentUpon>rentCarDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rentCarDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportPage.designer.vb">
+      <DependentUpon>ReportPage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Review.designer.vb">
+      <DependentUpon>Review.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Review.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SELANGOR.designer.vb">
+      <DependentUpon>SELANGOR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SELANGOR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SixSeated.designer.vb">
+      <DependentUpon>SixSeated.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SixSeated.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="status.designer.vb">
+      <DependentUpon>status.vb</DependentUpon>
+    </Compile>
+    <Compile Include="status.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TERENGGANU.designer.vb">
+      <DependentUpon>TERENGGANU.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TERENGGANU.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="top up confirmation.designer.vb">
+      <DependentUpon>top up confirmation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="top up confirmation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Total Price.designer.vb">
+      <DependentUpon>Total Price.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Total Price.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Total_cost.vb" />
+    <Compile Include="TROVAdatabaseDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TROVAdatabaseDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="TrovaPay.designer.vb">
+      <DependentUpon>TrovaPay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TrovaPay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TROVAPAYinterface.designer.vb">
+      <DependentUpon>TROVAPAYinterface.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TROVAPAYinterface.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="trovaPayPayment.vb" />
+    <Compile Include="TrovaPayTopUp.designer.vb">
+      <DependentUpon>TrovaPayTopUp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TrovaPayTopUp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserDetails.vb" />
+    <Compile Include="UserDriver.designer.vb">
+      <DependentUpon>UserDriver.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserDriver.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserProfile.designer.vb">
+      <DependentUpon>UserProfile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserProfile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="adminReport.resx">
+      <DependentUpon>adminReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin_Car.resx">
+      <DependentUpon>admin_Car.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin_CarRegitration.resx">
+      <DependentUpon>admin_CarRegitration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin_driverRegistration.resx">
+      <DependentUpon>admin_driverRegistration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin_mainPage.resx">
+      <DependentUpon>admin_mainPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin_TrovaPay.resx">
+      <DependentUpon>admin_TrovaPay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin_user.resx">
+      <DependentUpon>admin_user.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin_UserLocation.resx">
+      <DependentUpon>admin_UserLocation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="booking.resx">
+      <DependentUpon>booking.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="carRentConfirmation.resx">
+      <DependentUpon>carRentConfirmation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="choosePlaces.resx">
+      <DependentUpon>choosePlaces.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="COD_Cash.resx">
+      <DependentUpon>COD_Cash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreditDebit.resx">
+      <DependentUpon>CreditDebit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CurrentLocation.resx">
+      <DependentUpon>CurrentLocation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="driverDone.resx">
+      <DependentUpon>driverDone.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="driverProfile.resx">
+      <DependentUpon>driverProfile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DriverRegistration.resx">
+      <DependentUpon>DriverRegistration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Driver_Log_In.resx">
+      <DependentUpon>Driver_Log_In.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forgotPassword.resx">
+      <DependentUpon>forgotPassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forgotPassword2.resx">
+      <DependentUpon>forgotPassword2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRegister.resx">
+      <DependentUpon>FormRegister.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CHOOSE DRIVER.resx">
+      <DependentUpon>CHOOSE DRIVER.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="check_booking.resx">
+      <DependentUpon>check_booking.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="History.resx">
+      <DependentUpon>History.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main_Page_Driver.resx">
+      <DependentUpon>main_Page_Driver.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaleDriver.resx">
+      <DependentUpon>MaleDriver.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FourSeated.resx">
+      <DependentUpon>FourSeated.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JOHOR BAHRU.resx">
+      <DependentUpon>JOHOR BAHRU.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KEDAH.resx">
+      <DependentUpon>KEDAH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KELANTAN.resx">
+      <DependentUpon>KELANTAN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KL.resx">
+      <DependentUpon>KL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="location_travel.resx">
+      <DependentUpon>location_travel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOG_IN.resx">
+      <DependentUpon>LOG_IN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main_page_user.resx">
+      <DependentUpon>main_page_user.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainPage.resx">
+      <DependentUpon>mainPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MELAKA.resx">
+      <DependentUpon>MELAKA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>PublicVbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="N9.resx">
+      <DependentUpon>N9.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Online Banking.resx">
+      <DependentUpon>Online Banking.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAHANG.resx">
+      <DependentUpon>PAHANG.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="payment.resx">
+      <DependentUpon>payment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PENANG.resx">
+      <DependentUpon>PENANG.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PERAK.resx">
+      <DependentUpon>PERAK.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PERLIS.resx">
+      <DependentUpon>PERLIS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preference.resx">
+      <DependentUpon>Preference.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="registrationDriver.resx">
+      <DependentUpon>registrationDriver.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rentCarDetails.resx">
+      <DependentUpon>rentCarDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportPage.resx">
+      <DependentUpon>ReportPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Review.resx">
+      <DependentUpon>Review.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SELANGOR.resx">
+      <DependentUpon>SELANGOR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SixSeated.resx">
+      <DependentUpon>SixSeated.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="status.resx">
+      <DependentUpon>status.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TERENGGANU.resx">
+      <DependentUpon>TERENGGANU.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="top up confirmation.resx">
+      <DependentUpon>top up confirmation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Total Price.resx">
+      <DependentUpon>Total Price.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrovaPay.resx">
+      <DependentUpon>TrovaPay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TROVAPAYinterface.resx">
+      <DependentUpon>TROVAPAYinterface.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrovaPayTopUp.resx">
+      <DependentUpon>TrovaPayTopUp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserDriver.resx">
+      <DependentUpon>UserDriver.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserProfile.resx">
+      <DependentUpon>UserProfile.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="TROVAdatabaseDataSet.xsc">
+      <DependentUpon>TROVAdatabaseDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="TROVAdatabaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TROVAdatabaseDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="TROVAdatabaseDataSet.xss">
+      <DependentUpon>TROVAdatabaseDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TROVAdatabase.accdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
